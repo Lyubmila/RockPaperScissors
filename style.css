@@ -1,0 +1,12 @@
+.choice {
+    width: 150px;
+    border: solid black;
+    border-radius: 100px;
+    
+}
+
+.choice:hover {
+    background-color: aqua;
+    width: 200px;
+}
+
