@@ -1,12 +1,84 @@
-.choice {
-    width: 150px;
-    border: solid black;
-    border-radius: 100px;
+header {
+    border:3px solid #fff;
+}
+
+body {
+	background: #1860cc;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:#fff;
+	font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+button {
+    border:none;
+	border-radius:30px;
+	padding: 15px;
+    
+    
     
 }
 
-.choice:hover {
-    background-color: aqua;
-    width: 200px;
+#playAgain {
+    margin-left: 450px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: bold; 
 }
 
+#playAgain:hover {
+    transform:translate(1px,1px);
+	box-shadow: 1px 1px 0 #4f584d;
+}
+
+.choice,.computerChoices {
+    width: 150px;
+    border: solid black;
+    border-radius: 100px;   
+}
+
+.computer-choices {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.choice:hover {
+    background-color: #fff;
+    
+}
+
+
+.game {
+	border:3px solid #fff;
+    width: 1000px;
+	padding:25px;
+	
+}
+
+#container {
+    display: grid;
+    grid-template-columns:500px 500px;
+    
+}
+
+#count-winner {
+	width: 200px;
+	border:2px solid #000;
+	margin:20px auto;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 44px;
+}
+
+.playersTitle {
+    display:  grid;
+    grid-template-columns:500px 500px;
+}
+
+h2 {
+    text-align: center;
+    
+}

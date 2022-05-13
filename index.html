@@ -8,29 +8,41 @@
     <script src="./app.js" defer></script>
     <title>Rock-Paper-Scissors</title>
 </head>
+<header>
+ <img src="./images/banner.jpg" width="1051px" height="150px" alt="">
+</header>
 <body>
+    
+    <!-- <h1>ROCK PAPER SCISSORS GAME</h1> -->
+    
     <div class="game">
-        <h1>ROCK PAPER SCISSORS GAME</h1>
-        <div>
+
+        <div id="count-winner">
             <div id="count-player">0</div>
             <span>:</span>
             <div id="count-computer">0</div>
         </div>
-        <div id="container">
+        <div class ="playersTitle">
             <h2>Player</h2>
+            <h2>Computer</h2>
+        </div>
+        <div id="container">
+           
             <div class="player-choices">
                 <img src="./images/rock.png" alt="" id="rock" class="choice">
                 <img src="./images/paper.png" alt="" id="paper" class="choice">
                 <img src="./images/scissors.png" alt="" id="scissors" class="choice">
             </div>
-            <div class="computer-choices">
-                <h2>Computer</h2>
+            <div>
+                <div class="computer-choices"></div>
             </div>
+
+        </div>
+        <div>
+            <button id="playAgain">PLAY AGAIN</button>
         </div>
     </div>
-    <div>
-        <button id="playAgain">PLAY AGAIN</button>
-    </div>
-    
+    <div id="textWinner"></div>
+    <audio src="#" class="sound"></audio>
 </body>
 </html>
