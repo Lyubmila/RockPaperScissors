@@ -15,7 +15,7 @@ The game is played where players deliver hand signals that will represent the el
 
 https://docs.google.com/presentation/d/1GV0TsUnoYR-eE-C_H6AzwBPQJSRlYHYgTR4rb4EHgj8/edit?usp=sharing
 
-![how the page looks like!](//images/mainPage.jpg "Main Page")
+![how the page looks like!](./images/mainPage.jpg "Main Page")
 
 
 ### How to play
