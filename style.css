@@ -14,9 +14,7 @@ body {
 button {
     border:none;
 	border-radius:30px;
-	padding: 15px;
-    
-    
+	padding: 15px;   
     
 }
 
@@ -42,13 +40,16 @@ button {
     display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.choice:hover {
-    background-color: #fff;
     
 }
 
+.choice:hover {
+    background-color: #fff;    
+}
+
+.computerChoices{
+    background-color: #fff;
+}
 
 .game {
 	border:3px solid #fff;
